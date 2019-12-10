@@ -14,6 +14,7 @@
 		9E6BBEB2239FD5CE004D2BB6 /* FantasyFootballIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E6BBEB0239FD5CE004D2BB6 /* FantasyFootballIOS.xcdatamodeld */; };
 		9E6BBEB4239FD5CF004D2BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6BBEB3239FD5CF004D2BB6 /* Assets.xcassets */; };
 		9E6BBEB7239FD5CF004D2BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6BBEB5239FD5CF004D2BB6 /* LaunchScreen.storyboard */; };
+		9E6BBEBF239FD95C004D2BB6 /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6BBEBE239FD95C004D2BB6 /* PlayerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9E6BBEB3239FD5CF004D2BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6BBEB6239FD5CF004D2BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E6BBEB8239FD5CF004D2BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6BBEBE239FD95C004D2BB6 /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9E6BBEB5239FD5CF004D2BB6 /* LaunchScreen.storyboard */,
 				9E6BBEB8239FD5CF004D2BB6 /* Info.plist */,
 				9E6BBEB0239FD5CE004D2BB6 /* FantasyFootballIOS.xcdatamodeld */,
+				9E6BBEBE239FD95C004D2BB6 /* PlayerTableViewController.swift */,
 			);
 			path = FantasyFootballIOS;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6BBEBF239FD95C004D2BB6 /* PlayerTableViewController.swift in Sources */,
 				9E6BBEAC239FD5CE004D2BB6 /* ViewController.swift in Sources */,
 				9E6BBEA8239FD5CE004D2BB6 /* AppDelegate.swift in Sources */,
 				9E6BBEAA239FD5CE004D2BB6 /* SceneDelegate.swift in Sources */,
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenneth.FantasyFootballIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenneth.FantasyFootballIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
